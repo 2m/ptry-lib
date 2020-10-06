@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ptry-lib"
+version = "0.1.0"
+description = ""
+authors = ["Martynas Mickevičius <self@2m.lt>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+ptry-helper = { git = "git@github.com:2m/ptry-helper.git", rev = "409c3dc" }
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
