@@ -8,7 +8,7 @@ def read_lines(fname: str) -> List[str]:
 
 
 def read_requirements() -> List[str]:
-    read_lines("requirements_source.txt")
+    return read_lines("requirements_source.txt")
 
 
 setup(
