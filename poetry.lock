@@ -65,13 +65,13 @@ version = "0.1.0"
 description = ""
 category = "main"
 optional = false
-python-versions = "^3.8"
+python-versions = ">=3.8"
 
 [package.source]
 type = "git"
 url = "git@github.com:2m/ptry-helper.git"
-reference = "1244fa6"
-resolved_reference = "1244fa614e02e73a32a9076b104ac48564ea812d"
+reference = "047f569"
+resolved_reference = "047f56964a027cd54ac5cf74aed870f98ac97bf9"
 
 [[package]]
 name = "py"
@@ -130,7 +130,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "486fbf08b2065fe343fa3ab16ce9544d0477df384cc4dd09e311c0e907d248a0"
+content-hash = "f94342514c81931f4e24273c19e0bb9e3f6a3ed7aae55b00cd5bd1adf3fbfdc9"
 
 [metadata.files]
 atomicwrites = [
