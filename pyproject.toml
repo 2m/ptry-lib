@@ -6,7 +6,7 @@ authors = ["Martynas Mickevičius <self@2m.lt>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-ptry-helper = { git = "git@github.com:2m/ptry-helper.git", rev = "047f569" }
+ptry-helper = { git = "git@github.com:2m/ptry-helper.git", rev = "1244fa6" }
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
